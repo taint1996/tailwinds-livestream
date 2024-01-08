@@ -1,14 +1,16 @@
 // import { UserProfile } from "./One/UserProfile";
 // import { JobList } from "./Two/JobList";
-import { Collections } from "./Three/Collections";
+// import { Collections } from "./Three/Collections";
+import { ReviewForm } from './Four/ReviewForm'
 
 function App() {
   return (
     <>
-      <div className="flex w-full items-center justify-center bg-[#E6EFFA]">
+      <div className="flex min-h-screen w-full items-center justify-center bg-[#E6EFFA]">
         {/* <UserProfile /> */}
         {/* <JobList /> */}
-        <Collections />
+        {/* <Collections /> */}
+        <ReviewForm />
       </div>
     </>
   );
